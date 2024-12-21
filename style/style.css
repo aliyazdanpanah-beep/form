@@ -1,0 +1,66 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+.container {
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+
+.INP {
+     outline: none;
+     border: none;
+     margin-top: 80px;
+     border-bottom: 1px solid #000;
+
+}
+
+#user_text {
+     font-size: 12px;
+     color: red;
+     display: none;
+}
+
+#pass_text {
+     font-size: 12px;
+     color: red;
+     display: none;
+}
+
+#send {
+     margin-top: 80px;
+     padding: 5px 40px;
+     outline: none;
+     border: none;
+     border-radius: 10px;
+     background-color: rgb(50, 138, 165);
+     color: #fff;
+     opacity: 0;
+     transform: translateY(100px);
+     box-shadow: 1px 1px 6px #000;
+}
+
+#send:active {
+     background-color: rgba(49, 180, 219, 0.795);
+     box-shadow: 1px 1px 10px #000;
+     color: #000;
+}
+
+.buttun_wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.send_animat {
+     transform: translateY(0);
+     transition: all ease-in 1.5s;
+     opacity: 1;
+}
